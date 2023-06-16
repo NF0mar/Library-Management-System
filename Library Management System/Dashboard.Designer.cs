@@ -76,7 +76,7 @@
             this.addNewBookToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addNewBookToolStripMenuItem.Image")));
             this.addNewBookToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.addNewBookToolStripMenuItem.Name = "addNewBookToolStripMenuItem";
-            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(214, 56);
+            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(187, 56);
             this.addNewBookToolStripMenuItem.Text = "Add New Book";
             this.addNewBookToolStripMenuItem.Click += new System.EventHandler(this.addNewBookToolStripMenuItem_Click);
             // 
@@ -126,6 +126,7 @@
             this.issueBookToolStripMenuItem1.Name = "issueBookToolStripMenuItem1";
             this.issueBookToolStripMenuItem1.Size = new System.Drawing.Size(130, 54);
             this.issueBookToolStripMenuItem1.Text = "Issue Books";
+            this.issueBookToolStripMenuItem1.Click += new System.EventHandler(this.issueBookToolStripMenuItem1_Click);
             // 
             // returnBooksToolStripMenuItem1
             // 

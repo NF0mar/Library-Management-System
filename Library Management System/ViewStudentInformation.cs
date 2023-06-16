@@ -172,7 +172,7 @@ namespace Library_Management_System
         {
             if (MessageBox.Show("Are you sure you want to Exit?", "Hubi", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
-                Application.Exit();
+                this.Close();
             }
         }
     }

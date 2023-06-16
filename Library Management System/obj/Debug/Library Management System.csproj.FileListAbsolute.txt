@@ -29,3 +29,4 @@ C:\Users\nuurf\source\repos\Library Management System\Library Management System\
 C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.ViewBook.resources
 C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddStudent.resources
 C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.ViewStudentInformation.resources
+C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.IssueBooks.resources
