@@ -31,3 +31,4 @@ C:\Users\nuurf\source\repos\Library Management System\Library Management System\
 C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.ViewStudentInformation.resources
 C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.IssueBooks.resources
 C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.ReturnBook.resources
+C:\Users\nuurf\source\repos\Library Management System\Library Management System\obj\Debug\Library_Management_System.CompleteBookDetails.resources
