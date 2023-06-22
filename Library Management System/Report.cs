@@ -19,9 +19,7 @@ namespace Library_Management_System
 
         private void Report_Load(object sender, EventArgs e)
         {
-
             this.reportViewer1.RefreshReport();
-            this.reportViewer2.RefreshReport();
         }
     }
 }
