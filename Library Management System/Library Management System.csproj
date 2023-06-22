@@ -111,6 +111,12 @@
     <Compile Include="RegistrationFrm.Designer.cs">
       <DependentUpon>RegistrationFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.cs">
+      <DependentUpon>Report.cs</DependentUpon>
+    </Compile>
     <Compile Include="ReturnBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +134,11 @@
     </Compile>
     <Compile Include="ViewStudentInformation.Designer.cs">
       <DependentUpon>ViewStudentInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xogta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Xogta.xsd</DependentUpon>
     </Compile>
     <EmbeddedResource Include="AddBooks.resx">
       <DependentUpon>AddBooks.cs</DependentUpon>
@@ -156,6 +167,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReturnBook.resx">
       <DependentUpon>ReturnBook.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +189,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Xogta.xsc">
+      <DependentUpon>Xogta.xsd</DependentUpon>
+    </None>
+    <None Include="Xogta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Xogta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Xogta.xss">
+      <DependentUpon>Xogta.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
