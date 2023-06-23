@@ -54,6 +54,7 @@
             this.bookToolStripMenuItem.Name = "bookToolStripMenuItem";
             this.bookToolStripMenuItem.Size = new System.Drawing.Size(134, 54);
             this.bookToolStripMenuItem.Text = "Book Report";
+            this.bookToolStripMenuItem.Click += new System.EventHandler(this.bookToolStripMenuItem_Click);
             // 
             // studentReportToolStripMenuItem
             // 
@@ -68,8 +69,8 @@
             this.reportViewer1.Location = new System.Drawing.Point(0, 61);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(800, 391);
-            this.reportViewer1.TabIndex = 2;
+            this.reportViewer1.Size = new System.Drawing.Size(800, 388);
+            this.reportViewer1.TabIndex = 1;
             // 
             // Report
             // 
@@ -80,6 +81,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Report";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Report";
             this.Load += new System.EventHandler(this.Report_Load);
             this.menuStrip1.ResumeLayout(false);

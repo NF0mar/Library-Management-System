@@ -84,7 +84,7 @@ SELECT bid, bName, bAuthor, bPubl, bPDate, bPrice, bQuan FROM NewBook WHERE (bid
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
-  <xs:element name="Xogta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Xogta" msprop:Generator_DataSetName="Xogta">
+  <xs:element name="Xogta" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Xogta" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Xogta">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
         <xs:element name="NewBook" msprop:Generator_RowEvHandlerName="NewBookRowChangeEventHandler" msprop:Generator_RowDeletedName="NewBookRowDeleted" msprop:Generator_RowDeletingName="NewBookRowDeleting" msprop:Generator_RowEvArgName="NewBookRowChangeEvent" msprop:Generator_TablePropName="NewBook" msprop:Generator_RowChangedName="NewBookRowChanged" msprop:Generator_RowChangingName="NewBookRowChanging" msprop:Generator_TableClassName="NewBookDataTable" msprop:Generator_RowClassName="NewBookRow" msprop:Generator_TableVarName="tableNewBook" msprop:Generator_UserTableName="NewBook">

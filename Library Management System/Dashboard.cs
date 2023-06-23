@@ -81,5 +81,11 @@ namespace Library_Management_System
         {
 
         }
+
+        private void reportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Report rp = new Report();
+            rp.Show();
+        }
     }
 }

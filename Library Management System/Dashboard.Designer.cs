@@ -39,8 +39,8 @@
             this.issueBookToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.returnBooksToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.completeBookDetailsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +79,7 @@
             this.addNewBookToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("addNewBookToolStripMenuItem.Image")));
             this.addNewBookToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.addNewBookToolStripMenuItem.Name = "addNewBookToolStripMenuItem";
-            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(187, 56);
+            this.addNewBookToolStripMenuItem.Size = new System.Drawing.Size(214, 56);
             this.addNewBookToolStripMenuItem.Text = "Add New Book";
             this.addNewBookToolStripMenuItem.Click += new System.EventHandler(this.addNewBookToolStripMenuItem_Click);
             // 
@@ -88,7 +88,7 @@
             this.viewBooksToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("viewBooksToolStripMenuItem1.Image")));
             this.viewBooksToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.viewBooksToolStripMenuItem1.Name = "viewBooksToolStripMenuItem1";
-            this.viewBooksToolStripMenuItem1.Size = new System.Drawing.Size(187, 56);
+            this.viewBooksToolStripMenuItem1.Size = new System.Drawing.Size(214, 56);
             this.viewBooksToolStripMenuItem1.Text = "View Books";
             this.viewBooksToolStripMenuItem1.Click += new System.EventHandler(this.viewBooksToolStripMenuItem1_Click);
             // 
@@ -150,6 +150,15 @@
             this.completeBookDetailsToolStripMenuItem.Text = "Complete Book Details";
             this.completeBookDetailsToolStripMenuItem.Click += new System.EventHandler(this.completeBookDetailsToolStripMenuItem_Click);
             // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("reportToolStripMenuItem.Image")));
+            this.reportToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(102, 54);
+            this.reportToolStripMenuItem.Text = "Report";
+            this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
+            // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.BackColor = System.Drawing.Color.OldLace;
@@ -159,14 +168,6 @@
             this.exitToolStripMenuItem1.Size = new System.Drawing.Size(88, 54);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
-            // 
-            // reportToolStripMenuItem
-            // 
-            this.reportToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("reportToolStripMenuItem.Image")));
-            this.reportToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(102, 54);
-            this.reportToolStripMenuItem.Text = "Report";
             // 
             // Dashboard
             // 
