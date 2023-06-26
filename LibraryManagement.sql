@@ -6,6 +6,8 @@ pass varchar(150) not null,
 
 insert into LoginTable (username,pass) values ('nurfarah','hoyo12');
 insert into LoginTable (username,pass) values ('sidow','sidowxyz');
+insert into LoginTable (username,pass) values ('naima','1234');
+insert into LoginTable (username,pass) values ('yahya','1234');
 select * from LoginTable
 
 create table NewBook(
